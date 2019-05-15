@@ -87,6 +87,7 @@ settings = {
     messagePath: '/nodejs/message'
   },
   debug: false,
+  bodyParserJsonLimit: '16mb',
   sslKeyPath: '',
   sslCertPath: '',
   sslCAPath: '',
