@@ -34,7 +34,7 @@
  * sslCertPath: File system path to a certificate used for https communication
  * with the server and clients.
  *
- * sslCAPath: File system path to a file containing trusted certificates.
+ * sslCAPath: File system path to a file containing trusted certificates. (Optional)
  *
  * sslPassPhrase: SSL passphrase, will be passed in the passphrase key to the
  * https server if set.
