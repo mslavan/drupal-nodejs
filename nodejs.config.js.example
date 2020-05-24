@@ -59,10 +59,6 @@
  * extensions: An array of names of node.js modules that should be loaded as
  * extensions to the node.js server.
  *
- * clientsCanWriteToClients: global flag that allows all clients to be written
- * to by client sockets without going via the backend. Defaults to false. Be
- * careful when enabling this, it can be a security issue.
- *
  * transports: a list of transports to be used by Socket.Io, defaults to
  * ['websocket', 'polling'].
  *
@@ -92,11 +88,8 @@ settings = {
   sslCAPath: '',
   baseAuthPath: '/nodejs/',
   extensions: [],
-  clientsCanWriteToChannels: false,
-  clientsCanWriteToClients: false,
   transports: ['websocket', 'polling'],
   jsMinification: true,
   jsEtag: true,
   logLevel: 1
 };
-
