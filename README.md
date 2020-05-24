@@ -32,6 +32,10 @@ for details on the configuration values. As a minimum, you will need to set the
 property. The service key can be any arbitrary string, but be sure to enter the
 same service key in Drupal.
 
+### HTTPS
+
+If you set `scheme: 'https'` you will need to set sslKeyPath and sslCertPath
+
 ## Running the server app
 
 Start the app using the `node` command.
