@@ -9,16 +9,16 @@
   },
   "license": "GPL-2.0",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "express": "4.16.x",
+    "express": "4.17.x",
     "request": "2.88.x",
-    "body-parser": "1.18.x",
-    "socket.io": "2.2.x"
+    "body-parser": "1.19.x",
+    "socket.io": "2.3.x"
   },
   "devDependencies": {
     "mocha": "^7.2.0",
