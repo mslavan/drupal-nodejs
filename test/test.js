@@ -19,6 +19,7 @@ describe('Server app', function () {
     resource: '/socket.io',
     serviceKey: '__LOL_TESTING__',
     debug: false,
+    bodyParserJsonLimit: '1mb',
     baseAuthPath: '/nodejs/',
     extensions: [],
     transports: ['websocket', 'polling'],

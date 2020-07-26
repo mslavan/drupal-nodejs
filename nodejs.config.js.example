@@ -18,6 +18,10 @@
  * debug: Whether to write a bunch of debug information to the console. false
  * by default.
  *
+ * bodyParserJsonLimit: The maximum http request body size. Defaults to 1mb.
+ * See the upstream body-parser documentation for details:
+ * https://www.npmjs.com/package/body-parser#bodyparserjsonoptions
+ *
  * baseAuthPath: base path for all requests from the backend. This is used to
  * set the authentication call for all requests from the backend. Defaults to
  * '/nodejs/'.
@@ -73,7 +77,7 @@ settings = {
     messagePath: '/nodejs/message'
   },
   debug: false,
-  bodyParserJsonLimit: '16mb',
+  bodyParserJsonLimit: '1mb',
   sslKeyPath: '',
   sslCertPath: '',
   sslCAPath: '',
